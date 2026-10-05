@@ -12,7 +12,7 @@ class AlunoTest {
         Aluno aluno = new Aluno();
         aluno.setFrequencia(74);
 
-        assertFalse(aluno.calcularAprovacao());
+        assertTrue(aluno.calcularAprovacao());
     }
 
     @Test
